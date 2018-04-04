@@ -1,0 +1,30 @@
+<Window x:Class="Tshirt_Design_Jesse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tshirt_Design_Jesse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Ellipse Width="100" Height="100" Stroke="LawnGreen" StrokeThickness="50" Visibility="Visible" RenderTransformOrigin="0.356,0.86" >
+            <Ellipse.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-25.692"/>
+                    <TranslateTransform X="17.029" Y="2.681"/>
+                </TransformGroup>
+            </Ellipse.RenderTransform>
+
+        </Ellipse>
+        <Rectangle Height="161" Stroke="Coral" StrokeThickness="90" Margin="108,0,118,0" RenderTransformOrigin="0.582,0.471"/>
+        <Ellipse Height="50" Stroke="DarkGoldenrod" StrokeThickness="30">
+             </Ellipse>
+        <Rectangle Height="160" Stroke="DodgerBlue" StrokeThickness="100">
+            
+        </Rectangle>
+        <Ellipse Height="100" Stroke="Purple" StrokeThickness="100">
+        </Ellipse>
+    </StackPanel>
+</Window>
